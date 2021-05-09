@@ -5,12 +5,12 @@
 }
 
 body {
-  width: 1920px;
-  background-image: url('markdown ![GitHub Logo](Senza titolo-1_Tavola disegno 1.jpg)');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
   font-family: 'Montserrat', sans-serif;
+}
+
+.img {
+  width: 1920px;
+  height: 500px;
 }
 
   .container {
