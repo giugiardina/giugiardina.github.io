@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1920px;
+  background-image: url('img/Senza titolo-1_Tavola disegno 1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+  .container {
+    margin: 100px;
+  }
+
+
+#typedtext {
+  font-family: 'Courier Prime', monospace;
+  color: white;
+  font-size: 20px;
+  margin-top: 150px;
+}
+
+.button {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: sticky;
+}
+
+.btn {
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: #33cccc;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.heart {
+  color: red;
+  font-weight: bolder;
+}
